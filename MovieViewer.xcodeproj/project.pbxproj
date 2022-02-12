@@ -19,9 +19,9 @@
 		52E1B7A827AF0F3A00F66DB7 /* MovieViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1B7A727AF0F3A00F66DB7 /* MovieViewerUITests.swift */; };
 		52E1B7AA27AF0F3A00F66DB7 /* MovieViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1B7A927AF0F3A00F66DB7 /* MovieViewerUITestsLaunchTests.swift */; };
 		52E1B7B727AF2ABF00F66DB7 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1B7B627AF2ABE00F66DB7 /* MovieCell.swift */; };
-		52E1B7B927AF3AEC00F66DB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52E1B7B827AF3AEC00F66DB7 /* README.md */; };
 		52EE980627B81058008693DA /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE980527B81058008693DA /* MovieGridViewController.swift */; };
 		52EE980827B81465008693DA /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EE980727B81465008693DA /* MovieGridCell.swift */; };
+		52EE980A27B84B94008693DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52EE980927B84B94008693DA /* README.md */; };
 		62ACFD065471818AA1B523B9 /* Pods_MovieViewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22BC2885421ACEFC2D59B4E /* Pods_MovieViewerTests.framework */; };
 		AA37869E58190EFDFABBD7B6 /* Pods_MovieViewer_MovieViewerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D808A3EE70FEDCF07EB22D /* Pods_MovieViewer_MovieViewerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,9 +61,9 @@
 		52E1B7A727AF0F3A00F66DB7 /* MovieViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewerUITests.swift; sourceTree = "<group>"; };
 		52E1B7A927AF0F3A00F66DB7 /* MovieViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		52E1B7B627AF2ABE00F66DB7 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
-		52E1B7B827AF3AEC00F66DB7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../Documents/Code Path/README.md"; sourceTree = "<group>"; };
 		52EE980527B81058008693DA /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		52EE980727B81465008693DA /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		52EE980927B84B94008693DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		681ABE4D6CADC529E69917E0 /* Pods-MovieViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewerTests.release.xcconfig"; path = "Target Support Files/Pods-MovieViewerTests/Pods-MovieViewerTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A66D831599FF927F08DFEC5 /* Pods_MovieViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4215742105BD4B066E2E12 /* Pods-MovieViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.debug.xcconfig"; path = "Target Support Files/Pods-MovieViewer/Pods-MovieViewer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		52E1B77A27AF0F3400F66DB7 = {
 			isa = PBXGroup;
 			children = (
-				52E1B7B827AF3AEC00F66DB7 /* README.md */,
+				52EE980927B84B94008693DA /* README.md */,
 				52E1B78527AF0F3400F66DB7 /* MovieViewer */,
 				52E1B79C27AF0F3900F66DB7 /* MovieViewerTests */,
 				52E1B7A627AF0F3A00F66DB7 /* MovieViewerUITests */,
@@ -293,7 +293,7 @@
 			files = (
 				52E1B79327AF0F3900F66DB7 /* LaunchScreen.storyboard in Resources */,
 				52E1B79027AF0F3900F66DB7 /* Assets.xcassets in Resources */,
-				52E1B7B927AF3AEC00F66DB7 /* README.md in Resources */,
+				52EE980A27B84B94008693DA /* README.md in Resources */,
 				52E1B78E27AF0F3500F66DB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
